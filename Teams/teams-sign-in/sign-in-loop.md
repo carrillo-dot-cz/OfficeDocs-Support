@@ -36,29 +36,38 @@ Change Microsoft Internet Explorer or Edge settings using administrator rights o
 2. Select **Accept** for **First-party Cookies** and **Third-party Cookies**, and select the **Always allow session cookies** check box. 
 
     ![IE](media/sign-in-loop/ie.png)
+    
+ Alternatively, if you need to keep third-party cookies blocked follow steps 3 and 4.
 
 3. In the Internet Options window, select **Security** > **Trusted Sites** > **Sites**.
+
 4. Add the following sites:
 
-    - https://*.microsoft.com
-    - https://*.microsoftonline.com
-    - https://*.teams.skype.com
-    - https://*.teams.microsoft.com
-    - https://*.sfbassets.com
-    - https://*.skypeforbusiness.com
+https://*.microsoft.com
+https://*.microsoftonline.com
+https://*.teams.skype.com
+https://*.teams.microsoft.com
+https://*.sfbassets.com
+https://*.skypeforbusiness.com
+
 
 ### Microsoft Edge
 
 1. In the Edge **Settings** window, select **Site permissions** and **Cookies and site data**.
 2. Turn on **Allow sites to save and read cookie data (recommended)** and make sure **Block third-party cookies** is turned off.
-3. In the same window, under **Allow**, select **Add** to add the following sites:
 
-    - [*.]microsoft.com
-    - [*.]microsoftonline.com
-    - [*.]teams.skype.com
-    - [*.]teams.microsoft.com
-    - [*.]sfbassets.com
-    - [*.]skypeforbusiness.com
+Alternatively, if you need to keep third-party cookies blocked follow steps 3 and 4.
+
+3. In the Internet Options window, select **Security** > **Trusted Sites** > **Sites**.
+
+4. Add the following sites:
+
+https://*.microsoft.com
+https://*.microsoftonline.com
+https://*.teams.skype.com
+https://*.teams.microsoft.com
+https://*.sfbassets.com
+https://*.skypeforbusiness.com
 
     ![edge](media/sign-in-loop/edge.png)
 
